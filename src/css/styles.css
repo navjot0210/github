@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+.container {
+  width: min(100% - 30px, 1080px);
+  margin-inline: auto;
+}
+
+.grid {
+  display: grid;
+  place-items: center;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+  height: 100dvh;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+
+/* ---------------------------------------------------- */
+/* Home Page                                            */
+/* ---------------------------------------------------- */
+.git-icon {
+  margin-top: -80px;
+  width: 160px;
+  height: auto;
+  filter: invert(1);
+}
+
+input[type=text] {
+  margin: 60px 0 10px;
+  border-radius: 50px;
+  width: 280px;
+  height: 48px;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: center;
+  background-color: rgb(255 255 255 / 5%);
+  border: 1px solid rgb(255 255 255 / 10%);
+  transition: all 0.25s ease-in-out;
+}
+
+input[type=text]:focus {
+  border: 1px solid rgb(255 255 255 / 25%);
+}
+
+.message {
+  font-size: 1.5rem;
+  color: #fff;
+}
