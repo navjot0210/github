@@ -6,9 +6,8 @@ function App() {
   return (
     <main>
       <div className='container'>
-          <Routes>
+          <Routes basename="/github-finder">
             <Route exact path='/' element={<Home />} />
-            {/* <Route exact path='/user' element={<User />} /> */}
           </Routes>
         </div>
     </main>
